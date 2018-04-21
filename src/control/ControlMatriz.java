@@ -55,7 +55,7 @@ public class ControlMatriz implements ActionListener {
                                       this.window.getA3m1_field(), this.window.getB3m1_field(), this.window.getC3m1_field()));
     
         matrices.addElement(getMatriz(this.window.getA1m2_field(), this.window.getB1m2_field(), this.window.getC1m2_field(), 
-                                      this.window.getA1m2_field(), this.window.getB2m2_field(), this.window.getC2m2_field(),
+                                      this.window.getA2m2_field(), this.window.getB2m2_field(), this.window.getC2m2_field(),
                                       this.window.getA3m2_field(), this.window.getB3m2_field(), this.window.getC3m2_field()));
         
         return matrices;
